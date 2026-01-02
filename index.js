@@ -5,7 +5,6 @@ const jwt = require("jsonwebtoken");
 const { default: mongoose } = require("mongoose");
 const JWt_SECRET = "mysecretkey";
 mongoose.connect(
-  "mongodb+srv://admin:Nvz6SyRUs1KbtyWw@cluster0.tkoqljs.mongodb.net/todo-app-database"
 );
 
 app.use(express.json());
